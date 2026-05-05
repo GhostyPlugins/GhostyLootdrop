@@ -1,0 +1,83 @@
+# ============================================================
+#                  GhostyLootdrop - Config
+#                  Author: Ger_Gh0stface
+# ============================================================
+
+# Language: en, de (files in /lang folder)
+language: en
+
+# Storage type: YAML or MYSQL
+storage:
+  type: YAML   # YAML or MYSQL
+  mysql:
+    host: localhost
+    port: 3306
+    database: ghostylootdrop
+    username: root
+    password: password
+    pool-size: 10
+    use-ssl: false
+
+# Drop settings
+drop:
+  # Height above player where the drop spawns (in blocks)
+  spawn-height: 100
+
+  # Falling speed of the drop (blocks per tick, lower = slower)
+  fall-speed: 0.5
+
+  # Sound played when drop spawns (Bukkit Sound name)
+  spawn-sound: ENTITY_WITHER_SPAWN
+  spawn-sound-volume: 1.0
+  spawn-sound-pitch: 1.0
+
+  # Sound played when drop lands
+  land-sound: ENTITY_GENERIC_EXPLODE
+  land-sound-volume: 0.8
+  land-sound-pitch: 1.2
+
+  # Sound when chest is opened
+  open-sound: BLOCK_CHEST_OPEN
+  open-sound-volume: 1.0
+  open-sound-pitch: 1.0
+
+  # Particles on spawn
+  spawn-particles: true
+  # Particles on landing
+  land-particles: true
+
+  # BossBar while drop is falling
+  bossbar:
+    enabled: true
+    color: RED       # RED, BLUE, GREEN, YELLOW, PURPLE, WHITE, PINK
+    style: SOLID     # SOLID, SEGMENTED_6, SEGMENTED_10, SEGMENTED_12, SEGMENTED_20
+
+  # Hologram above the chest (requires no extra plugin, uses ArmorStand)
+  hologram:
+    enabled: true
+    # Lines support & color codes and {name} placeholder
+    lines:
+      - "&6&l✦ LOOT DROP ✦"
+      - "&e{name}"
+      - "&7Öffne die Kiste!"
+
+  # Auto-remove chest after X seconds (0 = never)
+  auto-remove-seconds: 300
+
+  # Broadcast radius in blocks (0 = global broadcast)
+  broadcast-radius: 0
+
+  # Flare (Firework rocket when drop lands)
+  flare:
+    enabled: true
+    count: 3
+
+# Chest GUI settings
+gui:
+  # Title of the inventory setup GUI when creating a drop
+  setup-title: "&8» &6Lootdrop Setup"
+  # Rows for setup inventory (1-6)
+  setup-rows: 6
+
+# Permissions prefix shown in messages (set to "" to hide)
+prefix: "&8[&6GhostyLootdrop&8] &r"

@@ -1,0 +1,49 @@
+>> GhostyPlugins License
+
+Copyright (c) 2026 GhostyPlugins
+
+All rights reserved.
+
+By downloading, installing, or using this plugin (“Software”), you agree to the following terms:
+
+<------------------------------------------------------------------------------------------------------------------------------------------------->
+
+>> 1. Usage
+
+* You are allowed to download, install, and use this plugin on your own Minecraft server(s), whether private or public.
+* You may modify the **existing plugin files** to suit your server’s needs (config files, language files, etc.).
+
+>> 2. Restrictions
+
+* You **may not** add new core files, classes, or source code to the plugin and redistribute it as your own.
+* You **may not** sell, trade, or monetize the plugin in any form.
+* You **may not** redistribute the plugin or any modified version publicly without explicit written permission from GhostyPlugins.
+* You **may not** claim authorship of this plugin or any part of its code/assets.
+
+>> 3. Redistribution
+
+* Redistribution is strictly forbidden unless you have **explicit written permission** from GhostyPlugins.
+* You may share links to the **official release** (e.g., GitHub, Modrinth), but not upload or host copies yourself.
+
+>> 4. Credits
+
+* All credits must remain intact in plugin files and documentation.
+* If you modify allowed files (like config or language files), you may change contents but must keep the original plugin credits untouched.
+
+>> 5. Liability
+
+* This plugin is provided “as-is” without any warranties.
+* GhostyPlugins is not responsible for server issues, data loss, or other problems caused by the plugin or modifications.
+
+>> 6. Termination
+
+* Any violation of these terms immediately terminates your rights to use the plugin.
+* Violations may result in **legal action**.
+
+<------------------------------------------------------------------------------------------------------------------------------------------------->
+
+>> Summary (for quick reference):
+✅ You can use it and modify allowed files.
+❌ You cannot sell, redistribute, or add new files.
+❌ You cannot claim authorship.
+⚠️ GhostyPlugins is not liable for any damages.
